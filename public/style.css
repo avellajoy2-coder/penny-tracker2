@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+    background-color: lavenderblush;
+    color: rosybrown;
+    padding: 30px;
+}
+
+header {
+    text-align: center;
+    background-color: lightpink;
+    color: white;
+    padding: 35px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px mistyrose;
+}
+
+header h1 {
+    font-family: "Comic Sans MS", "Trebuchet MS", sans-serif;
+    font-size: 42px;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    padding: 28px;
+    border-radius: 22px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px lavender;
+    border: 2px solid lavenderblush;
+}
+
+h2 {
+    font-family: "Trebuchet MS", sans-serif;
+    margin-bottom: 20px;
+    color: palevioletred;
+}
+
+.summary-card {
+    background-color: lavender;
+    padding: 25px;
+    border-radius: 18px;
+    max-width: 300px;
+}
+
+.summary-card h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: mediumpurple;
+}
+
+.summary-card p {
+    font-size: 28px;
+    font-weight: bold;
+    color: palevioletred;
+}
+
+form {
+    display: grid;
+    gap: 12px;
+}
+
+label {
+    font-weight: bold;
+    color: rosybrown;
+}
+
+input,
+select {
+    padding: 13px;
+    border: 2px solid lavender;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 15px;
+    width: 100%;
+    background-color: floralwhite;
+    color: rosybrown;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: lightpink;
+}
+
+button {
+    background-color: lightpink;
+    color: white;
+    border: none;
+    padding: 13px 22px;
+    border-radius: 14px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 8px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: palevioletred;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 2px solid lavenderblush;
+}
+
+th {
+    background-color: mistyrose;
+    color: palevioletred;
+}
+
+tr:hover {
+    background-color: floralwhite;
+}
+
+@media (max-width: 700px) {
+    body {
+        padding: 12px;
+    }
+
+    section {
+        padding: 16px;
+        overflow-x: auto;
+    }
+
+    table {
+        min-width: 600px;
+    }
+}
+/* Registration Page */
+
+.register-section {
+    max-width: 480px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: white;
+    border: 2px solid lavender;
+    border-radius: 25px;
+    padding: 35px;
+}
+
+.register-section h2 {
+    color: palevioletred;
+    margin-bottom: 12px;
+}
+
+.register-section > p {
+    color: rosybrown;
+    margin-bottom: 20px;
+}
+
+.register-section form {
+    text-align: left;
+}
+
+.register-section button {
+    width: 100%;
+    margin-top: 18px;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 22px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: palevioletred;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+#message {
+    color: palevioletred;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: rosybrown;
+}
+.register-section form label {
+    display: block;
+    margin-top: 12px;
+}
+
+.register-section form input {
+    display: block;
+    width: 100%;
+    margin-top: 7px;
+}
+
+.register-section form button {
+    display: block;
+    width: 100%;
+}
+
+#message {
+    display: block;
+    margin-top: 12px;
+}
